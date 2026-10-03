@@ -6,7 +6,9 @@ A script used for installing CUDA 12.4 Toolkit on bupt-gpuhub(人人有算力) p
 ## Usage / 使用
 ```bash
 sudo -i
-git clone git@github.com:notvalid0/easy-bupt-cuda-install.git
+git clone https://github.com/notvalid0/easy-bupt-cuda-install.git
+#Clone失败请尝试gh-proxy加速
+#git clone https://gh-proxy.org/https://github.com/notvalid0/easy-bupt-cuda-install.git
 cd easy-bupt-cuda-install
 chmod +x ./cuda-install.sh
 bash ./cuda-install.sh
